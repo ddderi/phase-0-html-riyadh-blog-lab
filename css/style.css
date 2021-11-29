@@ -3,10 +3,12 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  color: blue;
+  font-size: larger;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-image: linear-gradient(to bottom right, blue, red);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
